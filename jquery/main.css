@@ -9,3 +9,25 @@
 .green {
     color: green;
 }
+
+.ipt-box {
+    margin: 1rem;
+    border-bottom: none;
+}
+
+.ipt-box label {
+    border-bottom: none;
+    transition: border-bottom linear .3s;
+}
+
+.ipt-box label.invalid {
+    border-bottom: 3px solid red;
+}
+
+.ipt-box input.invalid {
+    border-color: red;
+}
+
+.ipt-box input {
+    outline: none;
+}
